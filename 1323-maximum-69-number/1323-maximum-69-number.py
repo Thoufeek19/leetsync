@@ -7,5 +7,7 @@ class Solution:
             if arr[i]=='6':
                 arr[i]='9'
                 break
+        
+        arr = [10, 20, 30, 40]
         return int(''.join(arr))
             
